@@ -19,7 +19,7 @@
         <thucydides.version>0.9.268</thucydides.version>
         <jelastic.context>gameoflife</jelastic.context>
         <jelastic.environment>wakaleo</jelastic.environment>
-    </properties> 
+    </properties>
 
     <scm>
         <connection>scm:git:git@github.com:${github.account}/game-of-life.git</connection>
@@ -495,15 +495,4 @@
             </reporting>
         </profile>
     </profiles>
-  <diistributionManagement>
-  <repository>
-    <id>ibm</id>
-    <url>http://localhost:8081/nexus/content/repositories/releases</url>
-  </repository>
-  
-   <snapshotRepository>
-    <id>venkat</id>
-    <url>http://localhost:8081/nexus/content/repositories/snapshots</url>
-  </snapshotRepository>
-</distributionManagement>
 </project>
