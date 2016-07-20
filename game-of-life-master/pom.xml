@@ -495,10 +495,15 @@
             </reporting>
         </profile>
     </profiles>
-	<distributionManagement>
-        <repository>
-            <id>ibm</id>
-            <url>http://localhost:8081/repository/ibm/</url>
-        </repository>
-    </distributionManagement>
+  <diistributionManagement>
+  <repository>
+    <id>ibm</id>
+    <url>http://localhost:8081/nexus/content/repositories/releases</url>
+  </repository>
+  
+   <snapshotRepository>
+    <id>venkat</id>
+    <url>http://localhost:8081/nexus/content/repositories/snapshots</url>
+  </snapshotRepository>
+</distributionManagement>
 </project>
