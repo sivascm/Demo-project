@@ -256,7 +256,7 @@
                         </configuration>
                     </plugin>
 
-                    <!-- FINDBUGS -->
+                    <!-- FINDBUGSFORMAVENPLUGIN -->
                     <plugin>
                         <artifactId>findbugs-maven-plugin</artifactId>
                         <version>2.4.0</version>
