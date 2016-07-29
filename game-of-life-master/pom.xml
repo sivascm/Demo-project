@@ -496,9 +496,9 @@
         </profile>
     </profiles>
  <distributionManagement>
-  <repository>
-    <id>Snapshots</id>
+  <snapshotRepository>
+    <id>snapshots</id>
     <url>http://localhost:8081/nexus/content/repositories/snapshots</url>
-  </repository>
+  </snapshotRepository>
 </distributionManagement>
 </project>
