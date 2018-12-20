@@ -1,2 +1,3 @@
 # Demo-project.
 Testing.
+Activiting for hook services ...
